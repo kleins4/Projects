@@ -1,0 +1,7 @@
+Stephen Klein
+CSC345-01
+Dr. Yoon
+9/30/16
+
+My project fulfills all of the requirements.  It creates child processes, which execute the commands entered into the shell.  It runs commands in the background by default, but will wait for the child to finish if the user enters the command followed by the '&' character.  It exits when the user enters the command "exit". It has a history feature which keeps track of the last 10 commands entered into the shell and prints them in order from most to least recent when the user enters the command "history". When the user enters "!!" it will execute the most recently entered command and then re-add it to the history.  When the user enters "!N", where N is an integer in range of the history, it will execute the command at that range and then re-add it to the history.  If the user enters "!!" when there are no commands in the history, it will print "no commands in history".  If the user enters a command that does not have a corresponding number to it in the history, it will print "no such command in history".  It supports directory manipulation such as cd, mkdir, rmdir.  It supports batch processing.  Just enter ./ followed by the name of the file.  
+For example "./test.sc" will execute a batch file named test.
