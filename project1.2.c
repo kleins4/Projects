@@ -1,17 +1,9 @@
 /*
 Stephen Klein
-CSC345-01
-Dr. Yoon
-Project 1
-9/30/15
+UNIX shell with history commands
+9/30/16
 */
 
-/*
-	TO DO LIST:    
-	-  Add all comments before methods and everywhere
-		-fix running in background
-		-add spaces in history
-*/
 
 
 #include <stdio.h>
